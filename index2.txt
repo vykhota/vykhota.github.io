@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Vyshnavi Khota </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cabin" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merienda+One" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"  />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Imprima"  />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+  .collapsible {
+      background-color: #0e9bce;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 580px;
+      border: none;
+      text-align: center;
+      outline: none;
+      font-size: 15px;
+      font-family:"Cabin";
+  }
+
+  .active, .collapsible:hover {
+      background-color: #4db5dc;
+      font-size: 19px;
+  }
+
+  .content {
+      margin: 0 auto;
+      width: 544px;
+
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: #ffffff;
+      font-size: 12px;
+      font-family:"Cabin";
+      overflow: auto;
+      text-align: left;
+      color: black;
+
+  }
+  </style>
+
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<div class="parallax">
+    <div class="box">
+      <span class="name"> Vyshnavi Khota </span>
+    </div>
+
+    <img src="headshot.jpeg" alt="Avatar" class="headshot resize" >
+    <a href= https://www.linkedin.com/in/vyshnavi-khota-a73184128/>
+      <i class="fa fa-linkedin" style="position:absolute; color:white; font-size:40px; top:83%; left:49%"></i>
+    </a>
+
+    <a href="mailto:vkhota@umich.edu?Subject=Hello!" target="_top">
+      <i class="fa fa-envelope-o"style="position:absolute; color:white; font-size:40px; top:83%; left:42% "></i>
+    </a>
+
+    <a href= "/documents/Khota_Vyshnavi_resume_2018.pdf"
+      <i class="fa fa-file-text-o" style="position:absolute; color:white; font-size:40px; top:83%; left:56%"></i>
+    </a>
+
+</div>
+
+
+<div class="parallax2" style="height:60%">
+  <div style="height: 60%">
+    <div class="split left  ">
+      <span class="about"> About Me </span>
+    </div>
+
+    <div class="split2 right  ">
+      I am currently a junior at the University of Michigan Ann Arbor College of Engineering, from Princeton, NJ.
+      I am currently double majoring in Computer Science and Data Science with an intended minor from the Ross School of Business.
+      My areas of interest include technical consulting, product management, and software development!
+    </div>
+  </div>
+</div>
+
+<div class="parallax2" style="height:30%"></div>
+
+<div class="parallax2" style="height: 90%">
+  <div style="height: 60%">
+    <div class="split left  ">
+      <span class="about"> Education </span>
+    </div>
+
+    <div class="split2 right  "> <br>
+
+      <button class="collapsible"> Courses </button>
+      <div class="content"> <br>
+        <button class="collapsible" style="width: 350px"> Fall 2018 </button>
+        <div class="content" style="width: 314px; background-color:black">
+          <h2> Hello</h2>
+        </div><br>
+
+
+      </div><br>
+
+    </div>
+  </div>
+</div>
+
+<div class="parallax2" style="height: 90%">
+
+  <div style="height: 90%">
+    <div class="split left  ">
+      <span class="about"> Extracurriculars </span>
+    </div>
+
+    <div class="split2 right  "> <br>
+
+
+
+
+      <br><button class="collapsible"> MECC Consulting Group </button>
+      <div class="content">
+        <h2> Hello</h2>
+      </div><br>
+
+      <button class="collapsible"> Michigan Fintech </button>
+      <div class="content">
+        <h2> Hello</h2>
+      </div><br>
+
+      <button class="collapsible"> Impact Investing Group </button>
+      <div class="content">
+        <h2> Hello</h2>
+      </div><br>
+
+      <button class="collapsible"> The Coding School </button>
+      <div class="content">
+        <h2> Hello</h2>
+      </div><br>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="parallax2" style="height: 60%">
+  <div style="height: 60%">
+    <div class="split left  ">
+      <span class="about"> Experience </span>
+    </div>
+
+    <div class="split2 right  "> <br>
+
+      <button class="collapsible"> JP Morgan & Chase </button>
+      <div class="content">
+        <h2>At JP Morgan, I am working with the Global Technology Infrastructure team under Enterprise Computing services.
+           This includes working with a lot of the standard backend the firm works with like the mainframe.
+           I am currently creating a live dashboard to show the status of several hardware components
+           and working with the mainframe and internal cloud using REXX and Python for several internal programs. </h2>
+      </div><br>
+
+      <button class="collapsible"> Denison Consulting </button>
+      <div class="content">
+        <h2> Denison Consulting was a part-time fall internship that I did mostly out of curiosity about the consulting industry.
+          Here, I worked with project managers to help them manage workflows and compile client reports.
+          I also worked with CRM software and Qualtrics to optimize several processes and manage project data.</h2>
+      </div><br>
+
+      <button class="collapsible"> Winn Lab </button>
+      <div class="content">
+        <h2> Hello</h2>
+      </div><br>
+
+      <button class="collapsible"> Projects </button>
+      <div class="content">
+        <h2> Hello</h2>
+      </div><br>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="parallax" style="height: 30%"></div>
+
+<div class="parallax" style="height: 90%">
+
+  <div style="height: 90%">
+    <div class="split left  ">
+      <span class="about"> Stuff </span>
+    </div>
+
+    <div class="split2 right  "> <br>
+Currently Reading: <br>
+      <img src="astro.jpg" alt="Astrophysics for People in a Hurry" class="books" style="margin:0px 10px" >
+      <img src="fires.jpg" alt="little fires everywhere" class="books" style="margin:0px 10px" >
+      <img src="pachink.jpg" alt="Pachinko" class="books" style="margin:0px 10px">
+
+      <br>Interests:<br>
+      <br>Funfacts:<br>
+    </div>
+  </div>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
